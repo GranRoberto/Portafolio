@@ -1,6 +1,9 @@
 .css-selector {
-  background: linear-gradient(220deg, #349e5b, #1897aa, #375e8d);
-  background-size: 600% 600%;
+  background-size: 1500px 1500px;
+  background-image: url(./../imagenes/triangulo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
 
   -webkit-animation: AnimationName 18s ease infinite;
   -moz-animation: AnimationName 18s ease infinite;
@@ -8,25 +11,17 @@
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:88% 0%}
-  50%{background-position:13% 100%}
-  100%{background-position:88% 0%}
+  0%{background-position:88% 25%}
+  50%{background-position:20% 90%}
+  100%{background-position:88% 25%}
 }
 @-moz-keyframes AnimationName {
-  0%{background-position:88% 0%}
-  50%{background-position:13% 100%}
-  100%{background-position:88% 0%}
+  0%{background-position:88% 25%}
+  50%{background-position:20% 90%}
+  100%{background-position:88% 25%}
 }
 @keyframes AnimationName {
-  0%{background-position:88% 0%}
-  50%{background-position:13% 100%}
-  100%{background-position:88% 0%}
-}
-
-* {
-  background-image: url(./../imagenes/triangulo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 100;
+  0%{background-position:88% 25%}
+  50%{background-position:20% 90%}
+  100%{background-position:88% 25%}
 }
